@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const BACKEND_HOST = import.meta.env.VITE_BACKEND_HOST || "http://localhost:8080";
+const BACKEND_HOST = import.meta.env.VITE_BACKEND_HOST || "http://192.168.145.115:32000"; // có thể truy cập bằng bất kỳ bằng ip của node nào
 
 const fetchUsers = async () => {
   try {
